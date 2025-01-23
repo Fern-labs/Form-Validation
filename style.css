@@ -1,0 +1,74 @@
+#container {
+  display: grid;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#box {
+  background-color: rgba(255, 245, 238, 0);
+  padding: 40px;
+  border: 2px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#btn {
+  width: 315px;
+  height: 35px;
+  margin-top: 40px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(30, 170, 235);
+  border-style: none;
+  border-radius: 5px;
+  margin-left: 9px;
+}
+#btn:hover {
+  width: 315px;
+  height: 35px;
+  margin-top: 40px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(27, 150, 187);
+  border-style: none;
+  border-radius: 5px;
+  margin-left: 9px;
+  cursor: pointer;
+}
+
+.ipt {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.textbox {
+  padding: 10px;
+}
+h2 {
+  text-align: center;
+}
+
+/* #fname:invalid:required {
+  border: 2px dashed red;
+}
+#fname:valid:required {
+  border: 2px dashed green;
+}
+
+#lname:invalid:required {
+  border: 2px dashed red;
+}
+#lname:valid:required {
+  border: 2px dashed green;
+}
+
+#passw {
+  border: 2px dashed green;
+} */
+
+/* #passcheck:valid {
+  border: 2px dashed green;
+} */
