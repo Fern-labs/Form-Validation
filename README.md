@@ -1,2 +1,2 @@
 # Form-Validation
-JavaScript Patrice to validate if password matches.
+JavaScript practice to validate if password matches.
